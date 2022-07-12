@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as numpy
+import pickle
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
@@ -7,8 +8,6 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn.metrics import roc_curve, roc_auc_score, precision_score, recall_score, precision_recall_curve
 from sklearn.metrics import f1_score
 from sklearn.preprocessing import MinMaxScaler
-
-import pickle
 
 
 #load data
